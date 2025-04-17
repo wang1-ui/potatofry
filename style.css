@@ -1,0 +1,235 @@
+:root{
+    --orange: #ff7800;
+    --black:#130f40;
+    --light-color:#666;
+    --box-shadow:0.5rem 1rem rgba(0,0,0,.1);
+    --border:.2rem solid rgba(0,0,0,.1);
+    --outline:.1rem solid rgba(0,0,0,.1);
+    --outline-hover:.2rem solid var(--black);
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+html{
+    font-size: 62.5%;
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top:7rem;
+
+}
+body{
+    background:#eee;
+    
+}
+.header{
+    position: fixed;
+    top: 0; left: 0;right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 9%;
+    background:#fff;
+    box-shadow: var(--box-shadow);
+}
+.header .navbar a{
+    
+    font-size: 1.7rem;
+    margin: 1.5rem;
+    color: var(--black);
+}
+
+.header .navbar a:hover{
+
+    background-color: #ff7800;
+    
+}
+.header .icons{
+    margin:1rem;
+    border-radius: .5rem;
+    color: var(--black);
+    font-size: 2rem;
+    margin: 3px;
+    margin-right: .3rem;
+    text-align: center;
+    display: flex;
+    
+
+}
+.header .icons div:hover{
+    margin: 4px;
+    color:var(--orange);
+}
+section{
+    padding: 2rem;
+
+}
+.heading{
+    text-align: center;
+    padding: 2rem;
+    padding-right: 4rem;
+    padding-bottom: 3rem;
+    font-size: 3.5rem;
+    color: var(--black);
+}
+.heading span{
+    border-style: dashed;
+    
+    color:orange;
+    display: inline-block;
+    padding: .5rem 3rem;
+    border-radius: 5px; 
+
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(image/home.jpg) no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 60rem;
+    padding-bottom: 10rem;
+
+}
+
+.home .content{
+    padding-top: 5px;
+    font-size: 20px;
+
+    text-align: center;
+    width: 60rem;
+}
+.home .content h3{
+    color:var(--black);
+    font-size: 3rem;
+}
+.home .content h3 span{
+    font-size: 4rem;
+    color: orange;
+}
+.home .content p{
+    color:white;
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+.home .content a{
+    color:white;
+    padding: 1.25rem;
+    background-color:black;
+    border:50px;
+    border-color: black;
+    border-radius: 200px;
+}
+.home .content a:hover{
+    background-color: #ff7800;
+
+    
+}
+.about{
+    background-color: #eee;
+    padding-top: 10rem;
+    display:block;
+    
+    align-items:flex-start;
+    padding-bottom: 3rem;
+   
+     
+
+}
+.content1{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 90px;
+}
+.content1 .image img{
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    padding-top: 6rem;
+    padding-left: 6rem;
+    border-radius: 15rem;
+
+}
+.content1 .image img:hover{
+    border-style: double;
+    border-color: #ff7800;
+}
+.content1 .text p{
+    padding-left: 0px;
+    padding-top: 80px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    display: flex;
+    text-align:center;
+    font-size: 20px;
+    text-decoration:none;
+}
+.content1 .text p:hover{
+    color: #ff7800;
+    padding-left: 0px;
+    padding-top: 80px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    display: flex;
+    text-align:center;
+    font-size: 20px;
+    text-decoration:none;
+
+
+}
+.products .box-container{
+    display:grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    gap:1.5rem;
+    padding: 10px 10px;
+}
+.products .box-container .box{
+    padding: 3rem 2rem;
+    background: #eee;
+    outline: var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+ 
+}
+.products .box-container .box:hover{
+    padding: 3rem 2rem;
+    background:orange;
+    outline: var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    border-radius: 15px;
+ 
+}
+.products .box-container .box img{
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+}
+.contactus{
+    background-color: #eee;
+    padding-top: 10rem;
+    display:block;
+    
+    align-items:flex-start;
+    padding-bottom: 3rem;
+}
+.contact{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 90px;
+
+}
