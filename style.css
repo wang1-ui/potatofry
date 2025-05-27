@@ -65,6 +65,10 @@ body{
     
 
 }
+.header .icons:click{
+    margin: 4px;
+    color:var(blue);
+}
 .header .icons div:hover{
     margin: 4px;
     color:var(--orange);
@@ -230,6 +234,199 @@ section{
 .contact{
     display:grid;
     grid-template-columns: 1fr 1fr ;
-    column-gap: 90px;
+    column-gap: 10px;
 
+}
+
+
+.btn{
+    
+   
+    padding: 1.25rem;
+    background-color: #ff7800;
+    color: white;
+    border-radius: 25px;
+    font-size: 2rem;
+    margin-top: 2rem;
+     cursor: pointer;
+}
+.btn:hover{
+   
+    background-color: black;
+    color: white;
+     cursor: pointer;
+}
+v
+.contact .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+    
+}
+.contact .form h{
+    font-size: 20px;
+    color: var(--orange);
+    padding-bottom: 20px;
+}
+.contact .form .input-box input{
+    height: 5px;
+    width: 250px;
+    padding: 20px;
+    border: 2px;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.608);
+}
+.contact .form .input-box input:hover{
+    height: 5px;
+    width: 250px;
+    padding: 20px;
+    border: 2px;
+    border-radius: 40px;
+    background-color: #ffebd9b4;
+}
+.contact .form .input-message textarea{
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.608);
+}
+
+.contact .form .input-message textarea:hover{
+    
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #ffebd9b4;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    float: right;
+    padding: 10px 10px;
+    background-color:rgba(240, 145, 81, 0.822);
+}
+.info img{
+    width: 150px;
+
+    border-radius: 80px;
+}
+
+.info h6{
+ font-size: 80px;  
+    color: var(--black);
+    padding: 10px 10px;
+      
+}
+.info h6:hover{
+    color: #ff7800;
+}
+.info p1{
+    font-size: 20px;
+    color: var(--black);
+    padding: 10px 10px;
+}
+.info p2{
+    font-size: 20px;
+    color: var(--black);
+    padding: 10px 10px;
+}
+.info p3{
+    font-size: 20px;
+    color: var(--black);
+    padding: 10px 10px;
+}
+.gallery .box-container1{
+    width: max-content;
+    max-height: 360px;
+
+    background-color: #ff7800;
+    display:flex;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 1.5rem;
+    padding: 10px 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid #ff7800;
+    box-shadow: var(--box-shadow);
+    column-gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+.box1{
+    height: 300px;
+    padding: 3rem 2rem;
+    background: #eee;
+    outline: var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+}
+.detail{
+
+}
+
+.footer .footer-container{
+    width: 953px;
+    padding: 20px;
+    background-color: #ffae00dc;
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer .footer-container .logo img{
+   border-radius: 80%;
+}
+.footer .footer-container .logo img:hover{
+    border-radius: 80%;
+    border-style: double;
+    border-size: 50px;
+    border-color: #130900;
+ }
+.footer-section h3{
+    color: rgba(255, 25, 0, 0.893);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-section p{
+    font-size: 18px;
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer-section p1{
+    font-size: 20px;
+    color: #13100d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer .footer-container .icons{
+    margin:1rem;
+    border-radius: .5rem;
+    color: var(--black);
+    font-size: 2rem;
+    margin: 3px;
+    margin-right: .3rem;
+    text-align: center;
+    display: flex;
 }
