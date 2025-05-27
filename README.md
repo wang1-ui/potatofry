@@ -4,7 +4,7 @@ A crispy and fun website showcasing delicious potato recipes with an easy-to-nav
 
 ## Live Demo
 
-👉 [View Live Site](https://wang1-ui.github.io/teseting/)
+👉 [View Live Site](https://wang1-ui.github.io/potatofry/)
 
 ## Screenshots
 
