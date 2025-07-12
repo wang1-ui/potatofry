@@ -1,244 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mustang Potato Fries - Fresh & Organic</title>
+    <meta name="description"
+        content="Fresh and organic potato fries from the Himalayas. Crispy, flavorful, and delicious snacks.">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-
-    <!header section start!>
+    <!-- Header Section -->
     <header class="header">
-        <a href="#home" class="logo">
-            <img src="image/logo.JPG" alt="" style="width:100px">
-        </a>
-        <nav class="navbar">
-            <a href="#home">HOME</a>
-            <a href="#aboutus">ABOUT US</a>
-            <a href="#products">PRODUCTS</a>
-            <a href="#contactus ">CONTACT US</a>
-            <a href="#gallery">GALLERY</a>
-            
-        </nav>
-        <div class="icons">
-            <div href="" target="_blank" class="fa-brands fa-facebook fa-2x"></href=>
-            </div>
-            <div href="#"class="insta">
-                <i class="fa-brands fa-instagram fa-2x"></i>
-            </div>
-            <div href="" class="whatsapp">
-                <i class="fa-brands fa-whatsapp fa-2x"></i>
-            </div>
-    
+        <div class="header-container">
+            <a href="#home" class="logo">
+                <img src="image/logo.JPG" alt="Mustang Potato Fries Logo" loading="eager">
+            </a>
 
-            
+            <nav class="navbar" id="navbar">
+                <a href="#home" class="nav-link">HOME</a>
+                <a href="#aboutus" class="nav-link">ABOUT US</a>
+                <a href="#products" class="nav-link">PRODUCTS</a>
+                <a href="#contactus" class="nav-link">CONTACT US</a>
+                <a href="#gallery" class="nav-link">GALLERY</a>
+            </nav>
+
+            <div class="social-icons">
+                <a href="#" class="social-link" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#" class="social-link" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" class="social-link" aria-label="WhatsApp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+
+            <!-- Dark Mode Toggle -->
+            <div class="theme-toggle" id="theme-toggle">
+                <div class="toggle-track">
+                    <div class="toggle-thumb">
+                        <i class="fa-solid fa-sun"></i>
+                        <i class="fa-solid fa-moon"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mobile-menu-btn" id="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     </header>
-    <!header secttion end!>
 
-
-    <!home section starts!>
+    <!-- Home Section -->
     <section class="home" id="home">
-        
+        <div class="home-overlay"></div>
         <div class="content">
-            <h3>fresh and <span>ORGANIC</span> potato fries</h3>
-            <p> マスタングポテトフライはカリカリで風味豊か、美味しいスナックとして大人気です。
-            </p>
-            <a href="#products" class="btn">shop now</a>
+            <h1 class="home-title">Fresh and <span class="highlight">ORGANIC</span> Potato Fries</h1>
+            <p class="home-description">マスタングポテトフライはカリカリで風味豊か、美味しいスナックとして大人気です。</p>
+            <a href="#products" class="btn btn-primary">Shop Now</a>
         </div>
     </section>
 
-    <!home section ends!>
-    <!ABOUT section starts!>
+    <!-- About Section -->
     <section class="about" id="aboutus">
-        <h1 class="heading">ABOUT <span>US</span></h1>
-        <div class="content1">
-            <div class="image">
-                <img src="image/about.jpg" alt="">
-    
+        <div class="container">
+            <h2 class="section-heading">ABOUT <span class="highlight">US</span></h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="image/about.jpg" alt="About Mustang Potato Fries" loading="lazy">
+                </div>
+                <div class="about-text">
+                    <p>ムスタングポテトフライは、ヒマラヤで育ったじゃがいもから作られており、豊かで土の香りがする風味と完璧なカリッとした食感が特徴です。</p>
+                    <p>これらのムスタングポテトフライは新鮮に包装され、最高の品質を保ち、迅速にお届けします。</p>
+                </div>
             </div>
-            <div class="text">
-                <p>ムスタングポテトフライは、ヒマラヤで育ったじゃがいもから作られており、豊かで土の香りがする風味と完璧なカリッとした食感が特徴です。</p>
-                <p>これらのムスタングポテトフライは新鮮に包装され、最高の品質を保ち、迅速にお届けします。</p>
-            </div>
-
         </div>
-        
-    </section>   
-    <!about section ends!>
-
-
-    <!product section starts!>
-    <section class="products" id="products">
-        <h1 class="heading">PRODUCTS</h1>
-        <div class="box-container">
-            <div class="box">
-                <img src="image/box1.jpg" alt="" style="width: 300px;">
-                <h3>french fry</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, totam?
-                </p>
-                <a href="#" class="btn">read more</a>
-
-             </div>
-             <div class="box">
-                <img src="image/box2.jpg" alt="" style="width: 300px;">
-                <h3>Big cut</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, totam?
-                </p>
-                <a href="#" class="btn">read more</a>
-
-             </div>
-             <div class="box">
-                <img src="image/box3.jpg" alt=""style="width: 300px;">
-                <h3>Whole potato</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, totam?
-                </p>
-                <a href="https://www.instagram.com/wang08011/" class="btn">read more</a>
-
-             </div>
-        </div>
-
     </section>
 
-    <!product section ends!>
-
-    <!contact section starts!>
-    <section class="contactus" id="contactus">
-        <h1 class="heading">CONTACT <span>US</span></h1>
-        <div class="contact">
-            <div class="form">
-                <h>Do You Have Any Messege ?</h>
-                <form action="receive.html">
-                    <div class="input-box">
-                        <label1 for="email"></label1>
-                    <input type="email"id="email" placeholder="email address"/><br><br>
-                    <label for="text"></label>
-                    <input class="text"id="name" placeholder="name"/><br><br>
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <h2 class="section-heading">OUR <span class="highlight">PRODUCTS</span></h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="image/box1.jpg" alt="French Fry" loading="lazy">
                     </div>
-                    <div class="input-message">
-                        <p><label for="message"></label></p>
-                    <textarea id="message" name="messege" placeholder="write your message...." rows="7" cols="40"></textarea>
-                    <br>
-
+                    <div class="product-content">
+                        <h3>French Fry</h3>
+                        <p>Classic thin-cut fries with perfect crispiness and golden color.</p>
+                        <a href="#" class="btn btn-secondary">Learn More</a>
                     </div>
-                   
-                    <button1 type="submit"class="btn">submit</button1>
-                </form>
-                
-
-
-            </div>
-            <div class="info">
-                <img src="image/logo.JPG" alt="" style="width:100px">
-                <div class="detail">
-                    <h6>FRIED POTATO</h6>
-                    <P1>090-1111-1111</P1><br>
-                    <p2>info@friedpotato.com</p2><br>
-                    <p3>tokyo,japan</p3>
                 </div>
 
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="image/box2.jpg" alt="Big Cut" loading="lazy">
+                    </div>
+                    <div class="product-content">
+                        <h3>Big Cut</h3>
+                        <p>Thick-cut potato wedges with hearty texture and rich flavor.</p>
+                        <a href="#" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
 
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="image/box3.jpg" alt="Whole Potato" loading="lazy">
+                    </div>
+                    <div class="product-content">
+                        <h3>Whole Potato</h3>
+                        <p>Premium whole potato fries with natural skin and maximum nutrition.</p>
+                        <a href="https://www.instagram.com/wang08011/" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
             </div>
         </div>
-
-        
     </section>
-    <!contact section ends!>
 
-    <!gallery section starts!>
+    <!-- Contact Section -->
+    <section class="contact" id="contactus">
+        <div class="container">
+            <h2 class="section-heading">CONTACT <span class="highlight">US</span></h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <h3>Do You Have Any Message?</h3>
+                    <form action="receive.html" method="POST">
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Write your message..." rows="7"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <div class="info-logo">
+                        <img src="image/logo.JPG" alt="Mustang Potato Fries Logo" loading="lazy">
+                    </div>
+                    <div class="info-details">
+                        <h4>FRIED POTATO</h4>
+                        <p><i class="fa-solid fa-phone"></i> 090-1111-1111</p>
+                        <p><i class="fa-solid fa-envelope"></i> info@friedpotato.com</p>
+                        <p><i class="fa-solid fa-location-dot"></i> Tokyo, Japan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
     <section class="gallery" id="gallery">
-        <h1 class="heading">GALLERY</h1>
-        <div class="box-container1">
-            <div class="box1">
-                <a target="_blank" href="image/gallery1.jpg">
-                <img src="image/gallery1.jpg" alt="" height="250px" weidth="150px"></a>
-            </div>
-            <div class="box1">
-                <a target="_blank" href="image/gallery2.jpg">
-                <img src="image/gallery2.jpg" alt="" height="250px" weidth="150px">
-                </a>
-            </div>
-            <div class="box1">
-                <a target="_blank" href="image/gallery3.jpg">
-                <img src="image/gallery3.jpg" alt="" height="250px" weidth="150px">
-                </a>
-            </div>
-            <div class="box1">
-                <a target="_blank" href="image/gallery4.jpg">
-                <img src="image/gallery4.jpg" alt="" height="250px" weidth="150px">
-                </a>
-            </div>
-            <div class="box1">
-                <a target="_blank" href="image/gallery5.jpg">
-                <img src="image/gallery5.jpg" alt="" height="250px" weidth="150px">
-                </a>
-            </div>
-            <div class="box1">
-                <a target="_blank" href="image/gallery6.jpg">
-                <img src="image/gallery6.jpg" alt="" height="250px" weidth="150px">
-                </a>
+        <div class="container">
+            <h2 class="section-heading">OUR <span class="highlight">GALLERY</span></h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <a href="image/gallery1.jpg" target="_blank">
+                        <img src="image/gallery1.jpg" alt="Gallery Image 1" loading="lazy">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="image/gallery2.jpg" target="_blank">
+                        <img src="image/gallery2.jpg" alt="Gallery Image 2" loading="lazy">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="image/gallery3.jpg" target="_blank">
+                        <img src="image/gallery3.jpg" alt="Gallery Image 3" loading="lazy">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="image/gallery4.jpg" target="_blank">
+                        <img src="image/gallery4.jpg" alt="Gallery Image 4" loading="lazy">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="image/gallery5.jpg" target="_blank">
+                        <img src="image/gallery5.jpg" alt="Gallery Image 5" loading="lazy">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="image/gallery6.jpg" target="_blank">
+                        <img src="image/gallery6.jpg" alt="Gallery Image 6" loading="lazy">
+                    </a>
+                </div>
             </div>
         </div>
     </section>
-    <!gallery section ends!>
-    <!footer section starts!>
+
+    <!-- Footer Section -->
     <footer class="footer">
-    <div class="footer-container">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#home">
+                        <img src="image/logo.JPG" alt="Mustang Potato Fries Logo" loading="lazy">
+                    </a>
+                </div>
 
-    <a href="#home" class="logo">
-     <img src="image/logo.JPG" alt="" style="width:100px">
-    </a>
-    <div class="footer-section">
-        <h3>ポテトフライ</h3><br>
-        
-        <p>Email: info@potatofried.com</p><br>
-        <p>Phone: 090-1111-1111</p>
-        <p>Tokyo, Japan</p>
-        <p>Copyright © 2023 Fried Potato. All rights reserved.</p><br><br>
-        <p1>Designed by <a href="https://www.instagram.com/wang08011/"></a>sandeep majhi</p1>
-      </div>
-    
-    <div class="icons">
-        <div class="facebook">
-            <a href="https://www.instagram.com/wang08011/" class="fa-brands fa-facebook fa-4x"></a>
-    
-        </div>
-        <div class="insta">
-            <i class="fa-brands fa-instagram fa-4x"></i>
-        </div>
-        <div class="whatsapp">
-            <i class="fa-brands fa-whatsapp fa-4x"></i>
-        </div>
+                <div class="footer-info">
+                    <h3>ポテトフライ</h3>
+                    <p><i class="fa-solid fa-envelope"></i> info@potatofried.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 090-1111-1111</p>
+                    <p><i class="fa-solid fa-location-dot"></i> Tokyo, Japan</p>
+                    <p class="copyright">Copyright © 2023 Fried Potato. All rights reserved.</p>
+                    <p class="designer">Designed by <a href="https://www.instagram.com/wang08011/">Sandeep Majhi</a></p>
+                </div>
 
-
-        
-    </div>
-    </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="WhatsApp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
     </footer>
 
-    <!footer section ends !>
-    
-
-    
+    <script src="script.js"></script>
 </body>
+
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
